@@ -5,12 +5,51 @@ body a{
     text-decoration: none;
     color: #000;
 }
+body a:hover{
+    color: #000;
+}
 
+/* banner start */
+
+.banner{
+    background: url('../img/banner.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.banner_content{
+    padding: 50px 0;
+    color: #fff;
+    display: flex;
+}
+
+.banner_content .icon{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(32, 154, 235);
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.banner_content .icon i{
+    transform: translatex(130%);
+    line-height: 55px;
+}
+
+.banner_content h4,p{
+    margin: 0;
+}
+
+.banner_content p{
+    font-weight: 200;
+}
+
+/* banner end */
 
 /* navbar start */
 .navbar{
     border-bottom: 1px solid #dcdcdc;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 .navbar img{
     width: 40px;
