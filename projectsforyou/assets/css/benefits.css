@@ -29,35 +29,35 @@
 }
 
 
-.blog_top{
-    background-image: url('../img/search.png');
+.blog_top, .blog_top_thedos, .blog_top_whylost, .blog_top_how, .blog_top_courier{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border: 1px solid #bebebe;
     min-height: 400px;
     margin-bottom: 30px;
+}
+
+.blog_top{
+    background-image: url('../img/search.png');
 }
 
 .blog_top_whylost{
     background-image: url('../img/why1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid #bebebe;
-    min-height: 400px;
-    margin-bottom: 30px;
 }
 
 .blog_top_thedos{
     background-image: url('../img/img1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid #bebebe;
-    min-height: 400px;
-    margin-bottom: 30px;
 }
+
+.blog_top_how{
+    background-image: url('../img/img04.png');
+}
+
+.blog_top_courier{
+    background-image: url('../img/latest1.png');
+}
+
 .blog_left{
     border-right: 1px solid #dcdcdc;
 }
@@ -108,6 +108,11 @@
     font-size: 21px;
     padding-right: 30px;
     cursor: pointer;
+}
+
+.social_response .right i{
+    padding-right: 0;
+    padding-left: 30px;
 }
 .social_response i:hover{
     color: #000;
