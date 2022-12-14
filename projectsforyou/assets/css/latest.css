@@ -13,6 +13,39 @@
 .breadcrumbs .current{
     color: #000;
 }
+/* latestpost start */
+
+.latest_post{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(224,224,224,1);
+-moz-box-shadow: 0px 3px 7px 0px rgba(224,224,224,1);
+box-shadow: 0px 3px 7px 0px rgba(224,224,224,1);
+}
+
+.latest_post .blog_date{
+    padding-bottom: 0;
+}
+
+.latest_post .read_more{
+    color: #808080;
+    font-size: 12px;
+}
+
+.latest_post .read_more:hover{
+    color: #000;
+}
+
+.latest_post span{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* latestpost end */
 
 /* latest_post_img start */
 
@@ -26,3 +59,4 @@
     /* min-width: 100%;
     min-height: 100% */
 }
+
