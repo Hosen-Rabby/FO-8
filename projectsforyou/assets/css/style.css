@@ -134,6 +134,7 @@ body a:hover{
     margin-bottom: 30px;
 }
 
+
 .blog_text{
     border: 1px solid #fff;
     transition: .2s;
@@ -196,7 +197,7 @@ body a:hover{
     height: 100%;
 }
 
-/* blog bottom */
+/* blog bottom start */
 
 .blog_bottom .blog_content h2{
     font-size: 20px;
@@ -209,4 +210,21 @@ body a:hover{
     font-size: 15px;
     color: #808080;
     word-spacing: 3px;
+}
+
+/* blog bottom end */
+
+
+.latest_stories{
+    border-top: 1px solid #dcdcdc;
+} 
+
+.latest_stories a{
+    padding: 20px 0;
+    float: right;
+    color: #808080;
+}
+
+.latest_stories a:hover{
+    color: #000;
 }

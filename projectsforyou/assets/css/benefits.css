@@ -3,7 +3,7 @@
 .publish{
     border-bottom: 1px solid #dcdcdc;
     padding-bottom: 20px;
-    margin-bottom: 30px;
+    margin: 20px 0px;
 }
 .publish .search_icon{
     width: 30px;
@@ -26,6 +26,37 @@
     margin-left: 20px;
     margin-bottom: 0;
     line-height: 30px;
+}
+
+
+.blog_top{
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #bebebe;
+    min-height: 400px;
+    margin-bottom: 30px;
+}
+
+.blog_top_whylost{
+    background-image: url('../img/why1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #bebebe;
+    min-height: 400px;
+    margin-bottom: 30px;
+}
+
+.blog_top_thedos{
+    background-image: url('../img/img1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #bebebe;
+    min-height: 400px;
+    margin-bottom: 30px;
 }
 .blog_left{
     border-right: 1px solid #dcdcdc;
@@ -136,6 +167,7 @@
     background-color: rgb(32, 154, 235);
     border-radius: 50%;
     color: #fff;
+    margin: 20px 0;
 }
 
 
@@ -275,4 +307,34 @@
 .add i{
     cursor: pointer;
     font-size: 16px;
+}
+
+
+
+/* +++++++++++++++++++ whylost +++++++++++++++++++ */
+
+/* side_bar start */
+
+.side_bar{
+    border-left: 3px solid #000;
+    padding-left: 15px;
+}
+
+/* side_bar end */
+
+
+/* ++++++++++++++++ thedos +++++++++++++++++++++++ */
+
+.thedos_img{
+    overflow: hidden;
+    max-height: 450px;
+    margin: 40px 0;
+}
+
+
+/* ++++++++++++++++= how +++++++++++++++++++++++ */
+
+.video{
+    overflow: hidden;
+    margin: 30px 0;
 }

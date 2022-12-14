@@ -1,0 +1,28 @@
+.breadcrumbs{
+    margin-bottom: 20px;
+}
+.breadcrumbs a{
+    margin-right: 20px;
+    color: #808080;
+}
+
+.breadcrumbs a:hover{
+    color: #000;
+}
+
+.breadcrumbs .current{
+    color: #000;
+}
+
+/* latest_post_img start */
+
+.latest_post_img{
+    overflow: hidden;
+    margin: 30px 0;
+} 
+
+.latest_post_img{
+    /* flex-shrink: 0; */
+    /* min-width: 100%;
+    min-height: 100% */
+}
