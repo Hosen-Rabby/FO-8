@@ -58,8 +58,8 @@ body a:hover{
 /* navbar start */
 .navbar{
     border-bottom: 1px solid #dcdcdc;
-    /* margin-bottom: 30px; */
 }
+
 .navbar img{
     width: 40px;
     height: 40px;
@@ -237,3 +237,78 @@ body a:hover{
 .latest_stories a:hover{
     color: #000;
 }
+
+/* scroll to top */
+
+.to_top{
+    background-color: rgb(32, 154, 235);
+    border: none;
+    color: white;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    display: none;
+    transition: .4s ease-in-out;
+    text-align: center;
+    opacity: .8;
+}
+
+.to_top i{
+    font-size: 30px;
+    padding: 0px 10px 5px 10px;
+}
+
+.to_top:hover{
+    transform: scale(1.05) 
+    translateY(-5px);
+}
+
+
+/* responsive */
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 575px) { 
+    .blog_top {
+    min-height: 200px;
+    margin-bottom: 20px;
+    }
+
+    .blog_content h2 {
+    font-size: 18px;
+    }
+    .blog_content p {
+    font-size: 13px;
+}
+.blog_icon {
+    width: 35px;
+    height: 35px;
+}
+.blog_icon i {
+    transform: translatex(76%);
+    line-height: 35px;
+}
+}
+
+
+
+
+@media (min-width: 576px) { 
+    .blog_top {
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
