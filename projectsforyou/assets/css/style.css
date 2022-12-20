@@ -50,6 +50,14 @@ body a:hover{
 }
 
 .banner_content p{
+    word-spacing: 5px;
+}
+
+.details p{
+    word-spacing: 5px;
+}
+
+.banner_content p{
     font-weight: 200;
 }
 
@@ -157,6 +165,8 @@ body a:hover{
 
 .blog_content h2{
     font-size: 30px;
+    font-weight: 600;
+    word-spacing: 3px;
 }
 .blog_content p{
     font-size: 16px;
@@ -214,7 +224,6 @@ body a:hover{
     color: #000;
 }
 
-
 .blog_bottom .blog_content p{
     font-size: 15px;
     color: #808080;
@@ -268,44 +277,129 @@ body a:hover{
 
 
 /* responsive */
-/* Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 575px) { 
     .blog_top {
-    min-height: 200px;
-    margin-bottom: 20px;
+        min-height: 200px;
+        margin-bottom: 20px;
     }
 
-    .blog_content h2 {
-    font-size: 18px;
+    .blog_icon {
+        width: 35px;
+        height: 35px;
+        margin-top: 3px;
     }
-    .blog_content p {
-    font-size: 13px;
-}
-.blog_icon {
-    width: 35px;
-    height: 35px;
-}
-.blog_icon i {
-    transform: translatex(76%);
-    line-height: 35px;
-}
-}
+
+    .blog_icon i {
+        transform: translatex(72%);
+        line-height: 33px;
+    }
+    .search_box input {
+        width: 120px;
+    }
+
+    .blog_content h2, .blog_bottom .blog_content h2  {
+        font-size: 15px;
+    }
+    .blog_content p, .blog_bottom .blog_content p {
+        font-size: 12px;
+    }
+
+    .blog_date .date {
+        font-size: 12px;
+    }
+
+    .blog_date {
+        margin-left: 10px;
+    }
+
+    .blog_date .date {
+        margin-top: 0px;
+    }
 
 
+    .blog_text {
+       margin-bottom: 0px;
+   }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
 
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) and (max-width: 767px) { 
+    .blog_content h2, .blog_bottom .blog_content h2  {
+        font-size: 18px;
+    }
+    .blog_content p, .blog_bottom .blog_content p {
+        font-size: 13px;
+    }
+
+    .blog_icon {
+        width: 35px;
+        height: 35px;
+        margin-top: 3px;
+    }
+    .blog_icon i {
+        transform: translatex(72%);
+        line-height: 33px;
+    }
     .blog_top {
-    min-height: 200px;
-    margin-bottom: 20px;
-}
+        min-height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .search_box input {
+        width: 200px;
+    }
+
+
+
+    .blog_date {
+        margin-left: 10px;
+    }
+
+    .blog_date .date {
+        margin-top: 0px;
+    }
+
+
+    .blog_text {
+       margin-bottom: 0px;
+   }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  
+@media (min-width: 768px) and (max-width:991px) {  
+    .blog_content h2 {
+        font-size: 20px;
+    }
+
+    .blog_content p {
+        font-size: 14px;
+    }
+
+    .blog_bottom .blog_content h2 {
+        font-size: 16px;
+    }
+
+    .blog_bottom .blog_content p {
+        font-size: 14px;
+    }
+
+    .blog_date p {
+        font-size: 13px;
+    }
+
+    
+    .blog_date {
+        margin-left: 10px;
+    }
 
 }
+
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {  }
