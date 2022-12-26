@@ -150,15 +150,31 @@ body a:hover{
 }
 
 .blog_top{
-    background-image: url('../img/search.png');
+    /* background-image: url('../img/22may.png'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 1px solid #bebebe;
+    margin-bottom: 30px;
+    min-height: 250px;
+    max-height: 400px;
+}
+
+
+#blog_top_home{
+    background-image: url('../img/22may1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border: 1px solid #bebebe;
-    min-height: 400px;
     margin-bottom: 30px;
+    min-height: 450px;
+    max-height: 400px;
 }
 
+#blog_top_benefits{
+    background-image: url('../img/22may.jpeg');
+}
 
 .blog_text{
     border: 1px solid #fff;

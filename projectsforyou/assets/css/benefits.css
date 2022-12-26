@@ -31,10 +31,11 @@
 
 .blog_top, .blog_top_thedos, .blog_top_whylost, .blog_top_how, .blog_top_courier, .blog_top_gdrp, .blog_top_covid{
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     border: 1px solid #bebebe;
-    min-height: 400px;
+    /* min-height: 400px;
+    width: 100%; */
     margin-bottom: 30px;
 }
 
@@ -66,6 +67,129 @@
     background-image: url('../img/latest2.png');
 }
 
+
+#blog_top_charge{
+    background-image: url('../img/19jan.png');
+}
+
+#blog_top_powered{ 
+    background-image: url('../img/19jan2.png');    
+}
+
+#blog_top_future{
+    background-image: url('../img/19apr.png');   
+}
+
+#blog_top_predictive{
+    background-image: url('../img/19apr2.jpeg'); 
+}
+
+#blog_top_only{
+    background-image: url('../img/19may.png'); 
+}
+
+#blog_top_increase{
+    background-image: url('../img/19may2.png'); 
+}
+
+#blog_top_holistic{
+    background-image: url('../img/12jul.png');     
+}
+
+#blog_top_improve{
+    background-image: url('../img/19jul2.png');     
+}
+
+
+#blog_top_long{
+    background-image: url('../img/19dec2.png');
+}
+
+#blog_top_lost{
+    background-image: url('../img/20feb.png');
+}
+
+#top_blog_diy{
+    background-image: url('../img/20feb3.png');
+}
+
+#blog_top_only{
+    background-image: url('../img/2020jul.png');
+}
+
+#blog_top_howdoes{
+    background-image: url('../img/20jul.png');
+}
+
+#blog_top_printer{
+    background-image: url('../img/20oct.png');
+}
+
+#blog_top_do{
+    background-image: url('../img/20oct2.png');
+}
+
+#blog_top_categorious{
+    background-image: url('../img/20nov.png');
+}
+
+#blog_top_safe{
+    background-image: url('../img/20nov2.png');
+}
+
+#blog_top_sms{
+    background-image: url('../img/2021jan.png');
+}
+
+#blog_top_div{
+    background-image: url('../img/2021jan2.png');
+}
+
+#blog_top_why{
+    background-image: url('../img/21feb.png');
+}
+
+
+#blog_top_customer{
+    background-image: url('../img/21feb2.png');
+}
+
+
+#blog_top_win{
+    background-image: url('../img/21apr.png');
+}
+
+
+#blog_top_lost_21{
+    background-image: url('../img/21apr2.png');
+}
+
+
+#blog_top_reg{
+    background-image: url('../img/21may.png');
+}
+
+#blog_top_from{
+    background-image: url('../img/21may2.png');
+}
+
+#blog_top_best{
+    background-image: url('../img/21oct.png');
+}
+
+
+#blog_top_easy{
+    background-image: url('../img/21oct2.png');
+}
+
+#blog_top_how{
+    background-image: url('../img/20april.png');
+}
+
+
+#blog_top_found{
+    background-image: url('../img/20april2.png');
+}
 
 
 .blog_left{
