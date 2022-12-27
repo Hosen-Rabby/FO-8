@@ -28,14 +28,21 @@
     line-height: 30px;
 }
 
+.blog_top_img{
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.blog_top_img img{
+    width: 100%;
+    height: 100%;
+}
 
 .blog_top, .blog_top_thedos, .blog_top_whylost, .blog_top_how, .blog_top_courier, .blog_top_gdrp, .blog_top_covid{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     border: 1px solid #bebebe;
-    /* min-height: 400px;
-    width: 100%; */
     margin-bottom: 30px;
 }
 
@@ -56,7 +63,7 @@
 }
 
 .blog_top_courier{
-    background-image: url('../img/latest1.png');
+    background-image: url('../img/22nov.png');
 }
 
 .blog_top_gdrp{
@@ -462,6 +469,7 @@
 .side_bar{
     border-left: 3px solid #000;
     padding-left: 15px;
+    margin: 20px 0;
 }
 
 /* side_bar end */
@@ -471,9 +479,13 @@
 
 .thedos_img{
     overflow: hidden;
-    max-height: 450px;
-    margin: 40px 0;
 }
+.thedos_img img{
+    margin: 25px 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 
 /* ++++++++++++++++= how +++++++++++++++++++++++ */

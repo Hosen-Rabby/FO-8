@@ -9,6 +9,10 @@ body a:hover{
     color: #000;
 }
 
+.a_underline{
+    text-decoration: underline;
+}
+
 #preloader{
     background: #fff url('../img/Triangles\ indicator.gif') no-repeat center center;
     width: 100%;
