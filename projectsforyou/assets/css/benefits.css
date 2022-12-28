@@ -1,662 +1,479 @@
 /* publish star */
 
-.publish{
-    border-bottom: 1px solid #dcdcdc;
-    padding-bottom: 20px;
-    margin: 20px 0px;
+.publish {
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 20px;
+  margin: 20px 0px;
 }
-.publish .search_icon{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(32, 154, 235);
-    border-radius: 50%;
-    color: #fff;
-}
-
-
-.publish .search_icon i{
-    transform: translatex(50%);
-    line-height: 30px;
-    font-size: 15px;
+.publish .search_icon {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(32, 154, 235);
+  border-radius: 50%;
+  color: #fff;
 }
 
-.publish p{
-    font-size: 14px;
-    color: #808088;
-    margin-left: 20px;
-    margin-bottom: 0;
-    line-height: 30px;
+.publish .search_icon i {
+  transform: translatex(50%);
+  line-height: 30px;
+  font-size: 15px;
 }
 
-.blog_top_img{
-    overflow: hidden;
-    margin: 20px 0;
+.publish p {
+  font-size: 14px;
+  color: #808088;
+  margin-left: 20px;
+  margin-bottom: 0;
+  line-height: 30px;
 }
 
-.blog_top_img img{
-    width: 100%;
-    height: 100%;
+.blog_top_img {
+  overflow: hidden;
+  margin: 20px 0;
 }
 
-.blog_top, .blog_top_thedos, .blog_top_whylost, .blog_top_how, .blog_top_courier, .blog_top_gdrp, .blog_top_covid{
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    border: 1px solid #bebebe;
-    margin-bottom: 30px;
+.blog_top_img img {
+  width: 100%;
+  height: 100%;
+}
+.blog_left {
+  border-right: 1px solid #dcdcdc;
 }
 
-.blog_top{
-    background-image: url('../img/search.png');
-}
-
-.blog_top_whylost{
-    background-image: url('../img/why1.png');
-}
-
-.blog_top_thedos{
-    background-image: url('../img/img1.png');
-}
-
-.blog_top_how{
-    background-image: url('../img/img04.png');
-}
-
-.blog_top_courier{
-    background-image: url('../img/22nov.png');
-}
-
-.blog_top_gdrp{
-    background-image: url('../img/latest3.png');
-}
-
-.blog_top_covid{
-    background-image: url('../img/latest2.png');
-}
-
-
-#blog_top_charge{
-    background-image: url('../img/19jan.png');
-}
-
-#blog_top_powered{ 
-    background-image: url('../img/19jan2.png');    
-}
-
-#blog_top_future{
-    background-image: url('../img/19apr.png');   
-}
-
-#blog_top_predictive{
-    background-image: url('../img/19apr2.jpeg'); 
-}
-
-#blog_top_only{
-    background-image: url('../img/19may.png'); 
-}
-
-#blog_top_increase{
-    background-image: url('../img/19may2.png'); 
-}
-
-#blog_top_holistic{
-    background-image: url('../img/12jul.png');     
-}
-
-#blog_top_improve{
-    background-image: url('../img/19jul2.png');     
-}
-
-
-#blog_top_long{
-    background-image: url('../img/19dec2.png');
-}
-
-#blog_top_lost{
-    background-image: url('../img/20feb.png');
-}
-
-#top_blog_diy{
-    background-image: url('../img/20feb3.png');
-}
-
-#blog_top_only{
-    background-image: url('../img/2020jul.png');
-}
-
-#blog_top_howdoes{
-    background-image: url('../img/20jul.png');
-}
-
-#blog_top_printer{
-    background-image: url('../img/20oct.png');
-}
-
-#blog_top_do{
-    background-image: url('../img/20oct2.png');
-}
-
-#blog_top_categorious{
-    background-image: url('../img/20nov.png');
-}
-
-#blog_top_safe{
-    background-image: url('../img/20nov2.png');
-}
-
-#blog_top_sms{
-    background-image: url('../img/2021jan.png');
-}
-
-#blog_top_div{
-    background-image: url('../img/2021jan2.png');
-}
-
-#blog_top_why{
-    background-image: url('../img/21feb.png');
-}
-
-
-#blog_top_customer{
-    background-image: url('../img/21feb2.png');
-}
-
-
-#blog_top_win{
-    background-image: url('../img/21apr.png');
-}
-
-
-#blog_top_lost_21{
-    background-image: url('../img/21apr2.png');
-}
-
-
-#blog_top_reg{
-    background-image: url('../img/21may.png');
-}
-
-#blog_top_from{
-    background-image: url('../img/21may2.png');
-}
-
-#blog_top_best{
-    background-image: url('../img/21oct.png');
-}
-
-
-#blog_top_easy{
-    background-image: url('../img/21oct2.png');
-}
-
-#blog_top_how{
-    background-image: url('../img/20april.png');
-}
-
-
-#blog_top_found{
-    background-image: url('../img/20april2.png');
-}
-
-
-.blog_left{
-    border-right: 1px solid #dcdcdc;
-}
-
-.blog .publish span{
-    font-size: 14px;
-    color: #000;
+.blog .publish span {
+  font-size: 14px;
+  color: #000;
 }
 
 .benefits_social {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.benefits_social .social_icons i{
-    color: #808080;
-    font-size: 21px;
-    padding-right: 10px;
+.benefits_social .social_icons i {
+  color: #808080;
+  font-size: 21px;
+  padding-right: 10px;
 }
-.benefits_social .social_icons i:hover{
-    color: #000;
-}
-
-.blog h2{
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 30px;
+.benefits_social .social_icons i:hover {
+  color: #000;
 }
 
-.blog .text_bold{
-    font-weight: 500;
-    font-size: 18px;
+.blog h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
-.blog span{
-    font-size: 20px;
-    font-weight: 600;
+.blog .text_bold {
+  font-weight: 500;
+  font-size: 18px;
 }
 
-.social_response{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+.blog span {
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.social_response i{
-    color: #808080;
-    font-size: 21px;
-    padding-right: 30px;
-    cursor: pointer;
+.social_response {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
-.social_response .right i{
-    padding-right: 0;
-    padding-left: 30px;
-}
-.social_response i:hover{
-    color: #000;
-}
-
-
-.send_mail{
-    margin: 80px 0;
+.social_response i {
+  color: #808080;
+  font-size: 21px;
+  padding-right: 30px;
+  cursor: pointer;
 }
 
-.send_mail h4{
-    font-size: 18px;
-    font-weight: 500;
+.social_response .right i {
+  padding-right: 0;
+  padding-left: 30px;
+}
+.social_response i:hover {
+  color: #000;
 }
 
-.send_mail .mail_box{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-}
-.send_mail .mail_box input{
-    width: 70%;
-    border: 0;
-    border-bottom: 1px solid #dcdcdc;
+.send_mail {
+  margin: 80px 0;
 }
 
-.send_mail .mail_box input::placeholder{
-    font-size: 12px;
+.send_mail h4 {
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.send_mail .mail_box input[type="text"]{
-    outline: none;
+.send_mail .mail_box {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.send_mail .mail_box input {
+  width: 70%;
+  border: 0;
+  border-bottom: 1px solid #dcdcdc;
 }
 
-
-.send_mail .mail_box button{
-    background-color: #fff;
-    font-size: 16px;
-    padding: 10px 15px;
-    border: 1px solid #808088;
-    border-radius: 30px 30px;
+.send_mail .mail_box input::placeholder {
+  font-size: 12px;
 }
 
-.send_mail .mail_box button i{ 
-    padding-right: 10px;
+.send_mail .mail_box input[type="text"] {
+  outline: none;
 }
 
-.send_mail p{
-    font-size: 12px;
+.send_mail .mail_box button {
+  background-color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: 1px solid #808088;
+  border-radius: 30px 30px;
+}
+
+.send_mail .mail_box button i {
+  padding-right: 10px;
+}
+
+.send_mail p {
+  font-size: 12px;
 }
 
 /* right */
 
-.blog_right .icon{
-    width: 80px;
-    height: 80px;
-    background-color: rgb(32, 154, 235);
-    border-radius: 50%;
-    color: #fff;
-    margin: 20px 0;
+.blog_right .icon {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(32, 154, 235);
+  border-radius: 50%;
+  color: #fff;
+  margin: 20px 0;
 }
 
-
-
-.blog_right .icon i{
-    transform: translatex(110%);
-    line-height: 80px;
-    font-size: 25px;
+.blog_right .icon i {
+  transform: translatex(110%);
+  line-height: 80px;
+  font-size: 25px;
 }
-.blog_right h5{
-    font-size: 16px;
-    margin-top: 20px;
-    font-weight: 500;
+.blog_right h5 {
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 500;
 }
-.blog_right span{
-    font-size: 14px;
-    color: #808088;
+.blog_right span {
+  font-size: 14px;
+  color: #808088;
 }
-.blog_right p{
-    font-size: 12px;
-    margin-top: 20px;
-    color: #808088;
+.blog_right p {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #808088;
 }
 
-.follow_btn{
-    color: #fff;
-    background-color: green;
-    border-radius: 20px 20px;
-    padding: 5px 10px;
-    border: 1px solid green;
-    font-size: 14px;
+.follow_btn {
+  color: #fff;
+  background-color: green;
+  border-radius: 20px 20px;
+  padding: 5px 10px;
+  border: 1px solid green;
+  font-size: 14px;
 }
 
-.follow_btn:hover{
-    background-color: rgb(5, 147, 5);;
+.follow_btn:hover {
+  background-color: rgb(5, 147, 5);
 }
 
-.blog_right .follow{
-    color: #fff;
-    background: green;
-    padding: 8px 8px;
-    border-radius: 50%;
-    cursor: pointer;
+.blog_right .follow {
+  color: #fff;
+  background: green;
+  padding: 8px 8px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-.blog_right .about{
-    margin: 30px 0;
+.blog_right .about {
+  margin: 30px 0;
 }
 
-.blog_right .about p{
-    font-size: 16px;
-    border-bottom: 1px solid #dcdcdc;
-    color: #000;
+.blog_right .about p {
+  font-size: 16px;
+  border-bottom: 1px solid #dcdcdc;
+  color: #000;
 }
 
-.blog_right .about h6{
-    font-size: 14px;
-    word-spacing: 3px;
-    font-weight: 400;
-    color: #808080;
+.blog_right .about h6 {
+  font-size: 14px;
+  word-spacing: 3px;
+  font-weight: 400;
+  color: #808080;
 }
 /* right end */
 /* more start */
 
-.more_from{
-    background-color: #fafafa;
-    padding: 20px;
+.more_from {
+  background-color: #fafafa;
+  padding: 20px;
 }
 
-.more_from .more{
-    display: flex;
-    justify-content: space-between;
+.more_from .more {
+  display: flex;
+  justify-content: space-between;
 }
 
-.more_from .more .right h4{
-    font-size: 20px;
+.more_from .more .right h4 {
+  font-size: 20px;
 }
 
-.more_from .more .right p{
-    font-size: 14px;
-    color: #808080;
-    margin-bottom: 30px;
+.more_from .more .right p {
+  font-size: 14px;
+  color: #808080;
+  margin-bottom: 30px;
 }
 
-.more_post .publish p{
-    margin-left: 5px;
-    color: #000;
+.more_post .publish p {
+  margin-left: 5px;
+  color: #000;
 }
 
-.more_post .publish span{
-    color: #808080;
-    font-size: 12px;
-    font-weight: normal;
+.more_post .publish span {
+  color: #808080;
+  font-size: 12px;
+  font-weight: normal;
 }
 
-.more_item{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #dcdcdc;
-    padding-bottom: 30px;
-    margin-top: 30px;
+.more_item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 30px;
+  margin-top: 30px;
 }
 
-.more_item .right{
-    margin-right: 40px;
+.more_item .right {
+  margin-right: 40px;
 }
 
-
-.more_item .right h4{
-    font-size: 20px;
+.more_item .right h4 {
+  font-size: 20px;
 }
 
-.more_item .right p{
-    font-size: 14px;
+.more_item .right p {
+  font-size: 14px;
 }
 
-.add{
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
+.add {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
 }
 
-.add a{
-    color: #000;
-    background-color: #e4e4e4;
-    padding: 5px 10px;
-    border-radius: 15px;
-    transition: .2s;
+.add a {
+  color: #000;
+  background-color: #e4e4e4;
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: 0.2s;
 }
 
-.add a:hover{
-    background: #cdcccc;
+.add a:hover {
+  background: #cdcccc;
 }
 
-.add span{
-    font-weight: 400;
-    display: inline;
-    font-size: 12px;
+.add span {
+  font-weight: 400;
+  display: inline;
+  font-size: 12px;
 }
 
-.add i{
-    cursor: pointer;
-    font-size: 16px;
+.add i {
+  cursor: pointer;
+  font-size: 16px;
 }
-
-
 
 /* +++++++++++++++++++ whylost +++++++++++++++++++ */
 
 /* side_bar start */
 
-.side_bar{
-    border-left: 3px solid #000;
-    padding-left: 15px;
-    margin: 20px 0;
+.side_bar {
+  border-left: 3px solid #000;
+  padding-left: 15px;
+  margin: 20px 0;
 }
 
 /* side_bar end */
 
-
 /* ++++++++++++++++ thedos +++++++++++++++++++++++ */
 
-.thedos_img{
-    overflow: hidden;
+.thedos_img {
+  overflow: hidden;
 }
-.thedos_img img{
-    margin: 25px 0;
-    width: 100%;
-    height: 100%;
+.thedos_img img {
+  margin: 25px 0;
+  width: 100%;
+  height: 100%;
 }
-
-
 
 /* ++++++++++++++++= how +++++++++++++++++++++++ */
 
-.video{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-    margin-bottom: 30px;
+.video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-bottom: 30px;
 }
 
-.video iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-} 
-
-
-
-
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 @media (max-width: 575px) {
+  .blog_top,
+  .blog_top_thedos,
+  .blog_top_whylost,
+  .blog_top_how,
+  .blog_top_courier,
+  .blog_top_gdrp,
+  .blog_top_covid {
+    min-height: 200px;
+    margin-bottom: 20px;
+  }
+  .blog h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
 
-    .blog_top, .blog_top_thedos, .blog_top_whylost, .blog_top_how, .blog_top_courier, .blog_top_gdrp, .blog_top_covid {
-       min-height: 200px;
-       margin-bottom: 20px;
-   }
-   .blog h2 {
-       font-size: 20px;
-       font-weight: 500;
-       margin-bottom: 15px;
-   }
+  .details p {
+    font-size: 12px;
+  }
 
-   .details p {
-       font-size: 12px;
-   }
+  .blog .text_bold {
+    font-size: 16px;
+  }
+  .blog span {
+    font-size: 16px;
+    font-weight: 500;
+  }
 
-   .blog .text_bold {
-       font-size: 16px;
-   }
-   .blog span {
-       font-size: 16px;
-       font-weight: 500;
-   }
+  .send_mail h4 {
+    font-size: 16px;
+  }
 
-   .send_mail h4 {
-       font-size: 16px;
-   }
+  .send_mail .mail_box button {
+    font-size: 14px;
+    padding: 10px 13px;
+  }
 
-   .send_mail .mail_box button {
-       font-size: 14px;
-       padding: 10px 13px;
-   }
+  .more_from .more .right h5 {
+    font-size: 15px;
+  }
+  .more_from .more .right p {
+    font-size: 12px;
+  }
 
-   .more_from .more .right h5 {
-       font-size: 15px;
-   }
-   .more_from .more .right p {
-       font-size: 12px;
-   }
+  .more_item .right h4 {
+    font-size: 15px;
+  }
+  .more_item .right p {
+    font-size: 12px;
+  }
 
-   .more_item .right h4 {
-       font-size: 15px;
-   }
-   .more_item .right p {
-       font-size: 12px;
-   }
+  .add a {
+    font-size: 12px;
+  }
 
-   .add a {
-       font-size: 12px;
-   }
+  .add a {
+    padding: 5px 7px;
+  }
 
-   .add a {
-       padding: 5px 7px;
-   }
+  .more_item .right {
+    margin-right: 15px;
+  }
 
-   .more_item .right {
-       margin-right: 15px;
-   }
-
-   .thedos_img {
-	max-height: 225px;
-	margin: 15px 0;
-}
-
+  .thedos_img {
+    max-height: 225px;
+    margin: 15px 0;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .blog_top,
+  .blog_top_thedos,
+  .blog_top_whylost,
+  .blog_top_how,
+  .blog_top_courier,
+  .blog_top_gdrp,
+  .blog_top_covid {
+    min-height: 200px;
+    margin-bottom: 20px;
+  }
+  .blog h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
 
-@media (min-width: 576px) and (max-width: 767px) { 
-    .blog_top, .blog_top_thedos, .blog_top_whylost, .blog_top_how, .blog_top_courier, .blog_top_gdrp, .blog_top_covid {
-        min-height: 200px;
-        margin-bottom: 20px;
-    }
-    .blog h2 {
-        font-size: 20px;
-        font-weight: 500;
-        margin-bottom: 15px;
-    }
-    
-    .details p {
-        font-size: 12px;
-    }
-    
-    .blog .text_bold {
-        font-size: 16px;
-    }
-    .blog span {
-        font-size: 16px;
-        font-weight: 500;
-    }
-    
-    .send_mail h4 {
-        font-size: 16px;
-    }
-    
-    .send_mail .mail_box button {
-        font-size: 14px;
-        padding: 10px 13px;
-    }
-    
-    .more_from .more .right h5 {
-        font-size: 15px;
-    }
-    .more_from .more .right p {
-        font-size: 13px;
-    }
-    
-    .more_item .right h4 {
-        font-size: 15px;
-    }
-    .more_item .right p {
-        font-size: 13px;
-    }
-    
-    .add a {
-        font-size: 13px;
-    }
-    
-    .add a {
-        padding: 5px 7px;
-    }
-    .blog span {
-        font-size: 14px;
-    }
-    
-    .more_item .right {
-        margin-right: 15px;
-    }
+  .details p {
+    font-size: 12px;
+  }
 
-    
-   .thedos_img {
-	max-height: 300px;
-	margin: 15px 0;
+  .blog .text_bold {
+    font-size: 16px;
+  }
+  .blog span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .send_mail h4 {
+    font-size: 16px;
+  }
+
+  .send_mail .mail_box button {
+    font-size: 14px;
+    padding: 10px 13px;
+  }
+
+  .more_from .more .right h5 {
+    font-size: 15px;
+  }
+  .more_from .more .right p {
+    font-size: 13px;
+  }
+
+  .more_item .right h4 {
+    font-size: 15px;
+  }
+  .more_item .right p {
+    font-size: 13px;
+  }
+
+  .add a {
+    font-size: 13px;
+  }
+
+  .add a {
+    padding: 5px 7px;
+  }
+  .blog span {
+    font-size: 14px;
+  }
+
+  .more_item .right {
+    margin-right: 15px;
+  }
+
+  .thedos_img {
+    max-height: 300px;
+    margin: 15px 0;
+  }
 }
-
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width:991px) {  
-
-}
-
-
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }

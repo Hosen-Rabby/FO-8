@@ -1,135 +1,117 @@
-.breadcrumbs{
-    margin-bottom: 20px;
+.breadcrumbs {
+  margin-bottom: 20px;
 }
-.breadcrumbs a{
-    margin-right: 20px;
-    color: #808080;
-}
-
-.breadcrumbs a:hover{
-    color: #000;
+.breadcrumbs a {
+  margin-right: 20px;
+  color: #808080;
 }
 
-.breadcrumbs .current{
-    color: #000;
+.breadcrumbs a:hover {
+  color: #000;
+}
+
+.breadcrumbs .current {
+  color: #000;
 }
 /* latestpost start */
 
-.latest_post{
-    margin-top: 20px;
-    padding: 20px;
-    border: 1px solid #dcdcdc;
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 3px 7px 0px rgba(224,224,224,1);
--moz-box-shadow: 0px 3px 7px 0px rgba(224,224,224,1);
-box-shadow: 0px 3px 7px 0px rgba(224,224,224,1);
+.latest_post {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(224, 224, 224, 1);
+  -moz-box-shadow: 0px 3px 7px 0px rgba(224, 224, 224, 1);
+  box-shadow: 0px 3px 7px 0px rgba(224, 224, 224, 1);
 }
 
 .latest_post h4 {
-	font-weight: 600;
+  font-weight: 600;
 }
 .latest_post .blog_date p {
-    color: green;
+  color: green;
 }
 .latest_post .blog_date .date {
-    color: #808080;
+  color: #808080;
 }
-.latest_post  p {
-    color: #535252;
-}
-
-.latest_post .blog_date{
-    padding-bottom: 0;
+.latest_post p {
+  color: #535252;
 }
 
-.latest_post .read_more{
-    color: #808080;
-    font-size: 12px;
+.latest_post .blog_date {
+  padding-bottom: 0;
 }
 
-.latest_post .read_more:hover{
-    color: #000;
+.latest_post .read_more {
+  color: #808080;
+  font-size: 12px;
 }
 
-.latest_post span{
-    color: #000;
-    font-size: 14px;
-    font-weight: 400;
+.latest_post .read_more:hover {
+  color: #000;
 }
 
+.latest_post span {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
 
 /* latestpost end */
 
 /* latest_post_img start */
 
-
-.latest_post_img img{
-    width: 100%;
-    height: 100%;
-    padding: 20px 0;
+.latest_post_img img {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
 }
 
 /* calender start */
 
-.calender{
-    background-color: #f8f8f8;
-    padding: 0 20px;
-    border-radius: 5px;
+.calender {
+  background-color: #f8f8f8;
+  padding: 0 20px;
+  border-radius: 5px;
 }
 
-.calender .months{    
-    display: flex;
-    justify-content: space-between;
+.calender .months {
+  display: flex;
+  justify-content: space-between;
 }
-.calender .months .month a{
-    display: block;
-    margin: 15px 0;
-    color: #cfcfcf;
-    font-weight: 300;
-    font-size: 14px;
+.calender .months .month a {
+  display: block;
+  margin: 15px 0;
+  color: #cfcfcf;
+  font-weight: 300;
+  font-size: 14px;
 }
 
-.calender .months .month .active{
-    color: #000;
-    font-weight: 500;
+.calender .months .month .active {
+  color: #000;
+  font-weight: 500;
 }
-   
 
 /* responsive */
 
-@media (max-width: 575px) { 
-    .latest_post h4 {
-        font-size: 15px;
-    }
+@media (max-width: 575px) {
+  .latest_post h4 {
+    font-size: 15px;
+  }
 
-    .latest_post p {
-        font-size: 12px;
-    }
+  .latest_post p {
+    font-size: 12px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .latest_post h4 {
+    font-size: 15px;
+  }
 
-@media (min-width: 576px) and (max-width: 767px) { 
-    .latest_post h4 {
-        font-size: 15px;
-    }
-
-    .latest_post p {
-        font-size: 12px;
-    }
-
+  .latest_post p {
+    font-size: 12px;
+  }
 }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width:991px) {  
-
-}
-
-
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
