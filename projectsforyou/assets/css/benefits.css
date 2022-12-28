@@ -241,8 +241,8 @@
 .social_response{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
-
 
 .social_response i{
     color: #808080;
